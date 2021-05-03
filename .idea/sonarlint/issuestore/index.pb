@@ -1,0 +1,11 @@
+
+K
+Chapter1/HeartDiseaseUCI.py,b\f\bfb6500601ad5ad78d449f3614162b7bcf99daee
+^
+.Chapter1/Saving and serialising a dataframe.py,e\5\e51cc777d4e317fba48ad312c0e8c427e630dc14
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+H
+Chapter1/CreatingCSV.csv,b\6\b64e9f887acb396d95d853404509c68dfb691e4d
+J
+Chapter1/InspectingData.py,3\c\3ce3cac1aafac97bb9f32b397eadbc86d7d36b40
