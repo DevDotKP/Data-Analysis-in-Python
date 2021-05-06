@@ -15,3 +15,9 @@ S
 #NumPyBasics/IndexingAndSelection.py,1\c\1cc63d882fb2e4ae38f25cd789e130cc7a1af916
 G
 NumPyBasics/Exercise.py,8\2\82d00447add60ed501683fb5b76a327e048ad60c
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+F
+PandasBasic/Basic01.py,9\4\949b1af1e3e3a3cc58283345eb22fee38e6e9b83
+I
+PandasBasic/Dataframes.py,4\a\4a45984b37a31024b2d6b2bba34db7e944f85f6c
