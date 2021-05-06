@@ -9,3 +9,9 @@ H
 Chapter1/CreatingCSV.csv,b\6\b64e9f887acb396d95d853404509c68dfb691e4d
 J
 Chapter1/InspectingData.py,3\c\3ce3cac1aafac97bb9f32b397eadbc86d7d36b40
+F
+NumPyBasics/Basic01.py,5\d\5d31e8c104beec2e3f609ad1c994036927710464
+S
+#NumPyBasics/IndexingAndSelection.py,1\c\1cc63d882fb2e4ae38f25cd789e130cc7a1af916
+G
+NumPyBasics/Exercise.py,8\2\82d00447add60ed501683fb5b76a327e048ad60c
