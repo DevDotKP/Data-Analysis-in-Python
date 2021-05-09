@@ -42,6 +42,28 @@ try :
     randomMatrix.drop ( index="NewRow", inplace=True )
     print ( '\nAfter dropping: \n', randomMatrix )
 
+    # Conditional values
+    print ( 'Checking conditional values' )
+    conditionalDataFrame = randomMatrix > 0
+    print ( randomMatrix[
+                conditionalDataFrame] )  # This is similar to how we filtered for the Numpy arrays (NumPyBasics.IndexingAndSelection.py)
+    print ( randomMatrix[randomMatrix.loc['A1 C1 D1'.split ()] > 0] )
+
+    print ( "\nSliced DF\n" )
+    print ( "\n", randomMatrix[conditionalDataFrame]['A2 D2'.split ()] )  # Slicing the DF
+    print ( randomMatrix[conditionalDataFrame]['A2 D2'.split ()].loc['A1'] )  # Slicing it even further
+
+    print ( '\nAdding a new column\n' )
+    randomMatrix['Currencies'] = ('Rupees Dinar Pound Dollar Shekel'.split ())
+    print ( randomMatrix )
+
+    print ( "\nDataFrame information\n", randomMatrix.info () )  # Provides information about the DataFrame
+
+    print ( "\nDatabase aggregations\n",
+            randomMatrix.describe () )  # Provides basic aggregation for the DataFrame values
+
+
+
 except Exception as e :
     print ( 'Error detected!:{} \n {} \n {}'.format ( e.args, e.__class__, e.__doc__ ) )
     logger.error ( e.args )
