@@ -23,3 +23,9 @@ I
 PandasBasic/Dataframes.py,4\a\4a45984b37a31024b2d6b2bba34db7e944f85f6c
 ?
 CreatingCSV.csv,8\2\820d38541ec333e5e095eea9ca6c021ff89d878c
+R
+"PandasBasic/HandlingMissingData.py,f\3\f36d33d33794119d1fe95027ccf87103075938cc
+Q
+!PandasBasic/GroupingOperations.py,c\4\c4862d97cf9b312ae9b1d3d852a3a8d1d16b9846
+O
+PandasBasic/CommonOperations.py,5\0\5013eb84cae1477a679eb1c3a57e19deed470512
