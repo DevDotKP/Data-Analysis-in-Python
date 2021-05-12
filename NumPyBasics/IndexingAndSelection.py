@@ -37,3 +37,9 @@ kondition = arrayOne > 25
 print ( kondition )  # Prints if the values in arrayOne are more than 25 or not as 'True' and 'False'
 
 print ( arrayOne[kondition] )  # Prints only those values which satisfy the condition
+
+print ( twoDArray.sum () )
+
+print ( twoDArray.sum ( axis=0 ) )  # Gives the sums of the columns
+
+print ( twoDArray.sum ( axis=1 ) )  # Gives the sum of rows
