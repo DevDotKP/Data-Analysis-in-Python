@@ -13,8 +13,6 @@ F
 NumPyBasics/Basic01.py,5\d\5d31e8c104beec2e3f609ad1c994036927710464
 S
 #NumPyBasics/IndexingAndSelection.py,1\c\1cc63d882fb2e4ae38f25cd789e130cc7a1af916
-G
-NumPyBasics/Exercise.py,8\2\82d00447add60ed501683fb5b76a327e048ad60c
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 F
@@ -29,3 +27,9 @@ Q
 !PandasBasic/GroupingOperations.py,c\4\c4862d97cf9b312ae9b1d3d852a3a8d1d16b9846
 O
 PandasBasic/CommonOperations.py,5\0\5013eb84cae1477a679eb1c3a57e19deed470512
+M
+NumPyBasics/NumpyExercises.py,d\5\d52cc6ad3b18ac206e5107dcfe130b77599a2b89
+E
+PandasBasic/DataIO.py,6\e\6e4f73b04bc4cccf16dc531af65e7083b7c509d7
+N
+PandasBasic/PandasExercises.py,5\4\54fb1e02196db3090243c96f9e708ae01961982b

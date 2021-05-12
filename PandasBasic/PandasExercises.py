@@ -38,6 +38,27 @@ try :
     print ( pop )
     print ( pop.sort_values ( by='absoluteChange', ascending=False ).head ( 5 ) )
 
+    newdf = pop.groupby ( by='State' ).sum ()
+    newdf['percentageChange'] = (((newdf['2017PopEstimate'] - newdf['2010Census']) / newdf['2010Census']) * 100)
+    newdf['absoluteChange'] = newdf['percentageChange'].abs ()
+    print ( newdf.sort_values ( by='absoluteChange', ascending=False ).head ( 5 ) )
+
+    print ( '\nHello\n', newdf )
+
+    # Q11: What are the 5 most populated states according to the data?
+    print ( '\n\r\tA11\n',
+            pop.groupby ( by='State' ).sum ().sort_values ( by='2010Census', ascending=False ).head ( 5 ) )
+
+
+    # Q12: How many counties do not have the word 'County' in their names?
+    def check_county(name) :
+        return 'County' not in name
+
+
+    print ( '\n\r\tA12\n', sum ( pop['County'].apply ( check_county ) ) )
+
+    # Method 2: One liner:
+    print ( '\n\r\t Better method: A12\n', sum ( pop['County'].apply ( lambda name : 'County' not in name ) ) )
 
 
 except Exception as e :
