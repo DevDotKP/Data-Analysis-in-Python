@@ -31,7 +31,7 @@ try :
     r = requests.get ( url=url, headers=header )
     htmldf = pd.read_html ( r.text )
 
-    print ( htmldf )
+    print ( htmldf.head () )
 
 
 
