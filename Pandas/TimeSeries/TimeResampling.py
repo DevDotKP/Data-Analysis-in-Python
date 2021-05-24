@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 
+import Constants  # Using the defined constants
+
 url = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Pandas/TimeSeries/starbucks.csv'
 
 header = {
@@ -21,11 +23,25 @@ print ( starbucksDF.resample ( rule='A' ).mean () )  # Converting business week 
 
 ax = starbucksDF['Close'].resample ( 'A' ).mean ().plot.bar ( title='Average mean closing price',
                                                               grid=True )  # Shows the average closing price AT THE END of each year
-ax.set ( xlabel='Year', ylabel='USD $' )
+ax.set ( xlabel='Year', ylabel=Constants.USD )
 plt.show ()
 
 title = 'Max monthly closing price for SBUX'
 ax = starbucksDF['Close'].resample ( rule='M' ).max ().plot.line ( color=(0.52, 0.32, 0.31), title=title,
                                                                    grid=True )  # Giving color values from (r,g,b) that range from [0,1]
-ax.set ( xlabel='Month', ylabel='USD $' )
+ax.set ( xlabel='Month', ylabel=Constants.USD )
+plt.show ()
+
+# Rolling averages
+starbucksDF['Close'].plot ( figsize=(12, 5) )
+starbucksDF.rolling ( window=30 ).mean ()['Close'].plot ( grid=True, color=(.26, .12, .53) )
+plt.show ()
+
+# Tip: If you do not give plt.show() after each SIMILAR graph, they will appear on the same graph
+
+# What is expanding average?
+# A common alternative to rolling statistics is to use an expanding window, which yields the value of the statistic with all the data available up to that point in time.
+
+ax = starbucksDF['Close'].expanding ().mean ().plot ( title='Expanding average', color=(.12, .98, .43), grid=True )
+ax.set ( xlabel='Time', ylabel=Constants.USD )
 plt.show ()

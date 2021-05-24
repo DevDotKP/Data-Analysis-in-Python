@@ -1,0 +1,2 @@
+USD = 'USD($)'
+TIME = 'Time'
