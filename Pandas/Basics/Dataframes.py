@@ -31,10 +31,10 @@ try :
                         inplace=True )  # The parameter inplace asks you if you want to make the change permanent
     print ( '\nAfter dropping: \n', randomMatrix )
 
-    print ( '\nCliped Row' )
+    print ( '\nClipped Row' )
     clippedRowRandomMatrix = randomMatrix.loc[('A1 C1 D1'.split ())]
     print (
-        clippedRowRandomMatrix )  # For columns, we defined the columns we wanted (Line 34), then fed that as a parameter to the actual matrix. For rows, since you're getting the clipped row matrix utself, you can directly reference it for values
+        clippedRowRandomMatrix )  # For columns, we defined the columns we wanted (Line 34), then fed that as a parameter to the actual matrix. For rows, since you're getting the clipped row matrix itself, you can directly reference it for values
 
     randomMatrix.loc["NewRow"] = randomMatrix.loc['A1'] + randomMatrix.loc['C1']
     print ( randomMatrix )

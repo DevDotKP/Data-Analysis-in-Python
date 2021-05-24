@@ -1,12 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import requests
 
 import Constants  # Using the defined constants
 
-url = Constants.STARBUCKS
-
-r = requests.get ( url=url, headers=Constants.HEADER )
+r = Constants.readhtml ( Constants.STARBUCKS )
 starbucksDF = pd.read_html ( r.text, index_col='Date',
                              parse_dates=True )  # With 'parse_dates=True', we are informing Python/Pandas that the index column has DateTime values
 starbucksDF = starbucksDF[0]
