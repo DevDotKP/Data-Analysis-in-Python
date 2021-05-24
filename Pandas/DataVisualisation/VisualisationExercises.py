@@ -40,10 +40,10 @@ df['defective'].plot.kde ( ls='--' )
 plt.show ()
 
 # Q7: Create a blended area plot of all the columns for the rows upto 30
-df[0 :30].plot.area ( stacked=False )
+df[0 :30].plot.area ( stacked=False, grid=True )
 plt.show ()
 
 # Moving the legend outside
-ax = df[0 :30].plot.area ( stacked=False )
+ax = df[0 :30].plot.area ( stacked=True )
 ax.legend ( bbox_to_anchor=(1, 1) )
 plt.show ()
