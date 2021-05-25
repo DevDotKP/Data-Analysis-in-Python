@@ -3,8 +3,7 @@ import pandas as pd
 
 import Constants  # Using the defined constants
 
-r = Constants.readhtml ( Constants.STARBUCKS )
-starbucksDF = pd.read_html ( r.text, index_col='Date',
+starbucksDF = pd.read_html ( Constants.readhtml ( Constants.STARBUCKS ).text, index_col='Date',
                              parse_dates=True )  # With 'parse_dates=True', we are informing Python/Pandas that the index column has DateTime values
 starbucksDF = starbucksDF[0]
 starbucksDF = starbucksDF.drop ( 'Unnamed: 0',

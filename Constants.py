@@ -9,6 +9,9 @@ HEADER = {
     "X-Requested-With" : "XMLHttpRequest"
 }
 
+PRODUCTION = 'Production'
+
+
 
 def readhtml(url) :
     r = requests.get ( url=url, headers=HEADER )
