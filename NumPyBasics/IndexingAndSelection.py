@@ -19,7 +19,7 @@ arrayOneCopy = arrayOne.copy ()
 arrayOneCopy[:] = 11  # To avoid changing the original data, we have to explicitly copy it
 
 print ( arrayOneCopy )  # Prints all values as 11
-print ( arrayOne )  # Prints the values as they ere post the slicing
+print ( arrayOne )  # Prints the values as they were post the slicing
 
 twoDArray = np.arange ( 0, 25 ).reshape ( 5, 5 )
 print ( twoDArray )
@@ -28,7 +28,7 @@ twoDArray[4, 4] = 101  # Accessing and modifying row 4, column 4 cell
 print ( twoDArray )  # Shows the changed value now
 
 print ( twoDArray[:2,
-        3 :] )  # Prints the sub-matrix from the beginning row (0) till, but not including, now 2 and from column 3 till the last column
+        3 :] )  # Prints the sub-matrix from the beginning row (0) till, but not including, row 2 and from column 3 till the last column
 
 # Conditional selection
 

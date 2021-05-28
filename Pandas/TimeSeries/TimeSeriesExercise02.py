@@ -50,10 +50,10 @@ print ( '\n A7: The biggest change was on : {} \n\tIt\'s value was : {} '.format
                                                                                    change.max () ) )
 
 # Plot out the yearly rolling mean on top of the original data
-umtmvsDF['UMTMVS'].plot ()
-umtmvsDF.rolling ( window=12 ).mean ()['UMTMVS'].plot ( legend=True, color=(.09, .15, .10,), grid=True,
+ax = umtmvsDF['UMTMVS'].plot ()
+umtmvsDF.rolling ( window=12 ).mean ()['UMTMVS'].plot ( legend=True, color=(.92, .01, .01), grid=True,
                                                         label='Rolling average (yearly)', ls='-.' )
-
+ax.set ( ylabel=Constants.USD, xlabel=Constants.TIME )
 plt.show ()
 
 # BONUS QUESTION
