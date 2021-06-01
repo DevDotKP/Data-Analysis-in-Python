@@ -67,3 +67,22 @@ df = pd.DataFrame ( data=(np.random.randn ( 1000, 2 )), columns=['a', 'b'] )
 print ( df )
 df.plot.hexbin ( x='a', y='b', gridsize=40 )
 plt.show ()
+
+## CUSTOMISING PLOTS
+
+df2['c'].plot.line ( figsize=(20, 8), ls='-.', c='red',
+                     lw=5 )  # Fig size shows the range of the graph. 20 is for the x axis, 3 is for the y
+# 'ls'= line style. The line for the above plot will be of the form -.-.
+# 'lw' = line width. Defines the thickness of the line
+plt.show ()
+
+# Naming the chart and the axis'
+title = 'Sample line plot'
+xlable = 'My X Lable'
+ylable = 'My Y Lable'
+ax = df2['c'].plot.line ( figsize=(20, 8), ls='-.', c='red', lw=5, title=title )
+ax.set ( xlabel=xlable, ylabel=ylable )
+plt.show ()
+
+df2.plot ()
+plt.show ()

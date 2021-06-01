@@ -15,21 +15,23 @@ S
 #NumPyBasics/IndexingAndSelection.py,1\c\1cc63d882fb2e4ae38f25cd789e130cc7a1af916
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-F
-PandasBasic/Basic01.py,9\4\949b1af1e3e3a3cc58283345eb22fee38e6e9b83
-I
-PandasBasic/Dataframes.py,4\a\4a45984b37a31024b2d6b2bba34db7e944f85f6c
 ?
 CreatingCSV.csv,8\2\820d38541ec333e5e095eea9ca6c021ff89d878c
-R
-"PandasBasic/HandlingMissingData.py,f\3\f36d33d33794119d1fe95027ccf87103075938cc
-Q
-!PandasBasic/GroupingOperations.py,c\4\c4862d97cf9b312ae9b1d3d852a3a8d1d16b9846
-O
-PandasBasic/CommonOperations.py,5\0\5013eb84cae1477a679eb1c3a57e19deed470512
 M
 NumPyBasics/NumpyExercises.py,d\5\d52cc6ad3b18ac206e5107dcfe130b77599a2b89
-E
-PandasBasic/DataIO.py,6\e\6e4f73b04bc4cccf16dc531af65e7083b7c509d7
-N
-PandasBasic/PandasExercises.py,5\4\54fb1e02196db3090243c96f9e708ae01961982b
+Q
+!Pandas/Basics/CommonOperations.py,1\1\117b3cf6d1cfb2728ad671d1539da070223278c3
+K
+Pandas/Basics/Dataframes.py,5\e\5e588e177587fd31fadae5c7e4839e0c777ef868
+S
+#Pandas/Basics/GroupingOperations.py,5\8\58e4de8e567e82fb02b01929223c39177ce4240b
+T
+$Pandas/Basics/HandlingMissingData.py,e\e\ee576b737d8560a6cb9c281b52f8f9e89bcbec67
+P
+ Pandas/Basics/PandasExercises.py,4\f\4fb071ed5bcce9e07cd5ad5e7ca19e7d5f018aee
+G
+Pandas/Basics/DataIO.py,e\4\e42bb13111c428b6b44d0ce8a4f87138d1f25446
+H
+Pandas/Basics/Basic01.py,5\0\5059f7e86009f6afd382e266da5b9ac75a87ba0d
+_
+/Pandas/DataVisualisation/VisualisationBasics.py,c\b\cb75927fc305bf17f0ee8badc05e1e69af02a11f
