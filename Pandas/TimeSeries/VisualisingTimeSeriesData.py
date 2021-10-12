@@ -12,7 +12,7 @@ starbucksDF = starbucksDF.drop ( 'Unnamed: 0',
 
 # Limiting the axis', per requirement
 
-# Two methods to achieve that, we can either filter the data out at the DF level, or the plot levek
+# Two methods to achieve that, we can either filter the data out at the DF level, or the plot level
 
 # DF level filtering
 starbucksDF['Close']['2017-01-01' :'2017-12-31'].plot ( title='DF level filtering', figsize=(12, 5), ylim=[50, 70],

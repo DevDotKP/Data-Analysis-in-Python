@@ -38,10 +38,14 @@ print ( pandaDateTime )
 pandaDateTime = pd.to_datetime ( ['1.5.2021'], format='%d.%m.%Y' )
 print ( pandaDateTime )
 
+
 data = np.random.rand ( 3, 2 )
 cols = ['A', 'B']
 indx = pd.date_range ( '24-05-2021', periods=3, freq='D' )
 df1 = pd.DataFrame ( data=data, index=indx, columns=cols )
+
 print ( '\n', df1 )
+# %%
+print ( 'Hello' )
 
 # TimeResampling
