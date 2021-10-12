@@ -7,7 +7,7 @@ STARBUCKS = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Panda
 MILK_PRODUCTION = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Pandas/TimeSeries/Reference/monthly_milk_production.csv'
 UMTMVS = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Pandas/TimeSeries/Reference/UMTMVS.csv'
 MACRODATA = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Pandas/TimeAnalysisWithStatsModels/Reference/macrodata.csv'
-
+AIRLINES = 'https://github.com/DevDotKP/Data-Analysis-in-Python/blob/Test/Pandas/TimeAnalysisWithStatsModels/Reference/airline_passengers.csv'
 HEADER = {
     "User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
     "X-Requested-With" : "XMLHttpRequest"
